@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        html {
+            scroll-behavior: auti;
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#" class="louvre__logo">
+                    <img src="assets/svg/logo.svg" alt="Louvre logo" class="louvre__logo-img">
+                    <h1 class="louvre__logo-title">louvre</h1>
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#visiting" class="nav__link"></a>Visiting</li>
+                        <li class="nav__item"><a href="#explore" class="nav__link"></a>Explore</li>
+                        <li class="nav__item"><a href="#video" class="nav__link"></a>Video</li>
+                        <li class="nav__item"><a href="#tickets" class="nav__link"></a>Tickets</li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link"></a>Contacts</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="welcome">
+            <div class="container">
+                <div class="louvre__content">
+                    <h2 class="section__title welcome__luovre-title">Welcome to&nbspthe&nbsplouvre</h2>
+                    <p class="welcome__luovre-subtitle">From the castle to the museum</p>
+                    <button type="button" class="discover__button">
+                        Discover the Louvre
+                    </button>
+                </div>
+            </div>
+            <img class="welcome__img" src="./assets/img/111.jpg" alt="welcome">
+        </section>
+
+        <section class="visit" id="visiting">
+            <div class="container">
+                <h2 class="section__title section__title--gold">Virtual tour</h2>
+                <p class="section__line"></p>
+                <div class="gallery">
+                    <div class="card">
+                        <img src="./assets/img/Rectangle1.jpg" alt="royal palace" class="card__img">
+                        <h3 class="card__title">Royal Palace</h3>
+                        <p class="card__line"></p>
+                        <p class="card__subtitle">360° Virtual Tour</p>
+                        <p class="card__description">Google Street Panorama View</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Rectangle2.jpg" alt="Denon Wing" class="card__img">
+                        <h3 class="card__title">Denon Wing</h3>
+                        <p class="card__line"></p>
+                        <p class="card__subtitle">360° Virtual Tour</p>
+                        <p class="card__description">Google Street Panorama View</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Rectangle3.jpg" alt="Colonnade Perrault" class="card__img">
+                        <h3 class="card__title">RColonnade Perrault</h3>
+                        <p class="card__line"></p>
+                        <p class="card__subtitle">360° Virtual Tour</p>
+                        <p class="card__description">Google Street Panorama View</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Rectangle4.jpg" alt="Greek hall" class="card__img">
+                        <h3 class="card__title">Greek hall</h3>
+                        <p class="card__line"></p>
+                        <p class="card__subtitle">360° Virtual Tour</p>
+                        <p class="card__description">Google Street Panorama View</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Rectangle5.jpg" alt="Mona Lisa" class="card__img">
+                        <h3 class="card__title">Mona Lisa</h3>
+                        <p class="card__line"></p>
+                        <p class="card__subtitle">360° Virtual Tour</p>
+                        <p class="card__description">Google Street Panorama View</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Rectangle6.jpg" alt="Night Palace" class="card__img">
+                        <h3 class="card__title">RNight Palace</h3>
+                        <p class="card__line"></p>
+                        <p class="card__subtitle">360° Virtual Tour</p>
+                        <p class="card__description">Google Street Panorama View</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="explor" id="explore">
+            <div class="container explor__container">
+                <div class="explor__content">
+                    <h2 class="section__title1">Picture explore</h2>
+                    <p class="section__line section__line--red"></p>
+                    <div class="explor__info">
+                        <p class="explor__text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of
+                            the Spanish Golden Age.</p>
+                        <p class="explor__text">It was cleaned in 1984 to remove a <span
+                                class="explor__text--yellow">"yellow veil"</span> of dust that had gathered since the
+                            previous restoration in the 19th century.</p>
+                        <p class="explor__text">The cleaning provoked furious protests, not because the picture had been
+                            damaged in any way, but because it looked different.</p>
+                    </div>
+                </div>
+                <img src="./assets/img/Rectangle7.jpg" alt="Picture explore" class="explor__img">
+            </div>
+        </section>
+
+        <section class="journey" id="video">
+            <div class="container">
+
+                <div class="journey__player">
+                    <div class="player__screen">
+                        <img src="./assets/video/play.svg" alt="Video journey" class="screen__play">
+                    </div>
+
+                    <div class="player__controls">
+                        <div class="player__button">
+                            <img src="./assets/video/back.svg" alt="back" class="player__back">
+                            <img src="./assets/video/start.svg" alt="start" class="player__start">
+                            <img src="./assets/video/forward.svg" alt="forvard" class="player__forvard">
+                        </div>
+                        <input type="range" value="40" min="0" max="100" step="1" class="player__progress">
+                        <div class="volume__buttom">
+                            <img src="./assets/video/volume.svg" alt="volume" class="player__volume-btn">
+
+                            <input type="range" value="40" min="0" max="100" step="1" class="player__volume-range">
+                        </div>
+
+                        <div class="full__buttom">
+                            <img src="./assets/video/full screen.svg" alt="fuul screen" class="player__fullscreen">
+                        </div>
+                    </div>
+                </div>
+                <div class="journey__content">
+                    <h2 class="section__title section__title--gold">Video journey</h2>
+                    <p class="journey__text">Enter and visit one of the most famous museums in the world and enjoy
+                        masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ticket" id="tickets">
+            <div class="container ticket__container">
+                <h2 class="section__title section__title--red">Buy tickets</h2>
+                <p class="section__line"></p>
+                <div class="ticket__content">
+                    <img src="./assets/img/Rectangle8.png" alt="buy ticket" class="ticket__img">
+                    <div class="ticket__form">
+                        <form class="form">
+                            <div class="form__content">
+                                <div class="form__ticket-type">
+                                    <h3 class="from-field__title">Ticket Type</h3>
+                                    <label class="form__radio-lable">
+                                        <input class="radio__input" type="radio" name="ticket-type">
+                                        Permanent exhibition
+                                    </label>
+                                    <label class="form__radio-lable">
+                                        <input class="radio__input" type="radio" name="ticket-type">
+                                        Temporary exhibition
+                                    </label>
+                                    <label class="form__radio-lable">
+                                        <input class="radio__input" type="radio" name="ticket-type">
+                                        Combined Admission
+                                    </label>
+                                </div>
+                                <div class="form__amount">
+                                    <h3 class="from-field__title">Amount</h3>
+                                    <div class="number">
+                                        <p class="number__title">Basic 18+</p>
+                                        <label for="number__basic" class="amount__label">
+                                            <button class="number__btn">-</button>
+                                            <input type="number" value="1" id="number__basic" class="amount__number">
+                                            <button class="number__btn number__btn--right">+</button>
+                                        </label>
+                                    </div>
+
+                                    <div class="number">
+                                        <p class="number__title">Senior 65+</p>
+                                        <label for="number__senior" class="amount__label">
+                                            <button class="number__btn">-</button>
+                                            <input type="number" value="1" readonly id="number__senior"
+                                                class="amount__number">
+                                            <button class="number__btn number__btn--right">+</button>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="form__total"> Total E <span class="form__total-count">220 </span></p>
+                            <button class="form__btn">Buy Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="visit" id="visiting">
+            <div class="container">
+                <h2 class="section__title section__title--gold">Contacts</h2>
+                <p class="section__line"></p>
+
+                <div class="contacts__content">
+                    <h2 class="contasts__title">Palais Royal Musee&nbspdu&nbspLouvre</h2>
+                    <p class="contacts__subtitle">address:&nbsp75001&nbspParis,&nbspFrance</p>
+                    <p class="contacts__subtitle">phone:+33(0)&nbsp1&nbsp40&nbsp20&nbsp50&nbsp50</p>
+                    <p class="contacts__subtitle">mail:info@louvre.fr</p>
+                </div>
+
+            </div>
+            <img class="contacts__img" src="./assets/img/Rectangle9.png" class="contacts__img">
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <footer class="fotter">
+        <div class="container">
+            <div class="footer-container">
+                <a href="#" class="fotter__logo">
+                    <img src="assets/svg/logo.svg" alt="Louvre logo" class="fotter__logo-img">
+                    <h1 class="fotter__logo-title">louvre</h1>
+                </a>
+                <nav class="fotter__nav">
+                    <ul class="fotter__nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link"></a>Visiting</li>
+                        <li class="nav__item"><a href="#" class="nav__link"></a>Explore</li>
+                        <li class="nav__item"><a href="#" class="nav__link"></a>Video</li>
+                        <li class="nav__item"><a href="#" class="nav__link"></a>Tickets</li>
+                        <li class="nav__item"><a href="#" class="nav__link"></a>Contacts</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer> -->
+</body>
